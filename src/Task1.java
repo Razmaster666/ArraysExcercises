@@ -16,7 +16,7 @@ public class Task1 {
         int [] myArr = new int[arrLength];
 
         for (int i = 0; i < myArr.length; i++) {
-            System.out.print("Enter number #" + (i + 1) + ": ");
+            System.out.print("Enter #" + (i + 1) + ": ");
             myArr[i] = Integer.valueOf(scanner.nextLine());
         }
 
