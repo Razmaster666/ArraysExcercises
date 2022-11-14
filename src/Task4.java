@@ -14,9 +14,14 @@ public class Task4 {
     public static int getSumOfArr(int[] x){
         int sum = 0;
 
-        for (int i = 0; i < x.length; i++) {
-            sum += x[i];
+//        for (int i = 0; i < x.length; i++) {
+//            sum += x[i];
+//        }
+
+        for (int lel : x){
+            sum+=lel;
         }
+
         return sum;
     }
 }
