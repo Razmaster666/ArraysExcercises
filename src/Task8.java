@@ -23,8 +23,8 @@ public class Task8 {
 
     public static void main(String[] args) {
 
-        int [] arrayA = {1, 2, 4, 3, 8, 8, 8, 19, 20};
-        int [] arrayB = {1, 2, 4, 3, 8, 8, 3, 21, 22, 23};
+        int [] arrayA = {1, 2, 4, 3, 8};
+        int [] arrayB = {1, 2, 4, 3, 8, 8, 3};
         int[] combinedResult = addNumbers(arrayA, arrayB);
 
         System.out.println("Array A:");
